@@ -80,6 +80,15 @@ export default defineConfig({
 });
 ```
 
+만약 환경 변수 필요 시 `.env` 파일을 생성하고 `playwright.config.ts`에서 로드할 수 있습니다.
+
+```typescript
+import dotenv from 'dotenv';
+import path from 'path';
+
+dotenv.config({ path: path.resolve(__dirname, '.env.local') });
+```
+
 ## 5. 테스트 실행 명령어 추가
 
 ### package.json
