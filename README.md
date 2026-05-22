@@ -6,6 +6,7 @@
 
 ```text
 setting/
+  AGENTS_guide.md
   AGENTS_guide_next16_fsd.md
   nextjs-test-guide.md
 
@@ -14,6 +15,12 @@ skills/
 ```
 
 ## 사용법
+
+### `setting/AGENTS_guide.md`
+
+프로젝트별로 채워 넣어 쓰는 범용 `AGENTS.md` 템플릿입니다.
+
+Next.js 버전, 아키텍처, 캐싱 정책이 프로젝트마다 다를 때 기본 뼈대로 사용합니다.
 
 ### `setting/AGENTS_guide_next16_fsd.md`
 
